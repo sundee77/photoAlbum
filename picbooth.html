@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="picbooth.css">
+	<title>Family Picture Album</title>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1 style="background-color: white">家庭相片集 Family Photo Album</h1>
+	<div class="tab" style="width: 12%;">
+		<button class="tablinks" onclick="openAlbum(event, 'All')" id="defaultOpen">全部照片</button>
+		<button class="tablinks" onclick="openAlbum(event, 'weihaiAll')">山东•威海</button>
+		<button class="tablinks" onclick="openAlbum(event,'Taizhou')">泰州•扬州</button>
+		<button class="tablinks" onclick="openAlbum(event, '2017Europe')">2017 欧洲之行</button>
+		<button class="tablinks" onclick="openAlbum(event, '2018Europe')">2018 欧洲之行</button>
+	</div>
+	<div  id="All" class="tabcontent">
+		<a href="family_photo/weihai1.jpeg" target="_blank">
+			<img src="family_photo/weihai1.jpeg" alt="Weihai 1">
+		</a>
+		<a href="family_photo/weihai4.jpeg" target="_blank">
+			<img src="family_photo/weihai4.jpeg" alt="Weihai 4">
+		</a>
+		<a href="family_photo/weihai2.jpeg" target="_blank">
+			   	<img src="family_photo/weihai2.jpeg" alt="Weihai 2">
+		</a>
+		<a href="family_photo/weihai6.jpeg" target="_blank">
+			<img src="family_photo/weihai6.jpeg" alt="Weihai 6">
+		</a>
+		<a href="family_photo/weihai5.jpeg" target="_blank">
+			<img src="family_photo/weihai5.jpeg" alt="Weihai 5">
+		</a>
+		<a href="family_photo/eu_saintmichel.JPG" target="_blank">
+			<img src="family_photo/eu_saintmichel.JPG" alt="Parents in Saint Michel">
+		</a>
+		<a href="family_photo/eu_bru.JPG" target="_blank">
+			<img src="family_photo/eu_bru.JPG" alt="Brussels Trip">
+		</a>
+		<a href="family_photo/eu_bru4.JPG" target="_blank">
+			<img src="family_photo/eu_bru4.JPG" alt="Brussels Trip4">
+		</a>
+		<a href="family_photo/eu_bru5.JPG" target="_blank">
+			<img src="family_photo/eu_bru5.JPG" alt="Brussels Trip5">
+		</a>
+		<a href="family_photo/eu_bru9.JPG" target="_blank">
+			<img src="family_photo/eu_bru9.JPG" alt="Brussels Trip9">
+		</a>
+		<a href="family_photo/eu_bru1.jpeg" target="_blank">
+			<img src="family_photo/eu_bru1.jpeg" alt="Brussels Trip1">
+		</a>
+		<a href="family_photo/eu_bru10.jpeg" target="_blank">
+			<img src="family_photo/eu_bru10.jpeg" alt="Brussels Trip10">
+		</a>
+		<a href="family_photo/eu_gr1.JPG" target="_blank">
+			<img src="family_photo/eu_gr1.JPG" alt="Germany Trip1">
+		</a>
+		<a href="family_photo/eu_gr3.JPG" target="_blank">
+			<img src="family_photo/eu_gr3.JPG" alt="Germany Trip3">
+		</a>
+		<a href="family_photo/eu_gr4.JPG" target="_blank">
+			<img src="family_photo/eu_gr4.JPG" alt="Germany Trip4">
+		</a>
+		<a href="family_photo/eu_gr9.JPG" target="_blank">
+			<img src="family_photo/eu_gr9.JPG" alt="Germany Trip9">
+		</a>
+		<a href="family_photo/eu_gr0.JPG" target="_blank">
+			<img src="family_photo/eu_gr0.JPG" alt="Germany Trip0">
+		</a>
+		<a href="family_photo/eu_gr11.JPG" target="_blank">
+			<img src="family_photo/eu_gr11.JPG" alt="Germany Trip11">
+ 	    </a>
+		<a href="family_photo/eu_gr.JPG" target="_blank">
+			<img src="family_photo/eu_gr.JPG" alt="Germany Trip"> 
+		</a>
+		<a href="family_photo/eu_gr2.JPG" target="_blank">
+			<img src="family_photo/eu_gr2.JPG" alt="Germany Trip2">	
+		</a>
+		<a href="family_photo/eu_gr5.JPG" target="_blank">
+			<img src="family_photo/eu_gr5.JPG" alt="Germany Trip5">	
+		</a>
+		<a href="family_photo/eu_gr6.JPG" target="_blank">		
+			<img src="family_photo/eu_gr6.JPG" alt="Germany Trip6">
+		</a>
+		<a href="family_photo/eu_gr7.JPG" target="_blank">	
+			<img src="family_photo/eu_gr7.JPG" alt="Germany Trip7">
+		</a>
+		<a href="family_photo/paris_mimi2.JPG" target="_blank">	
+			<img src="family_photo/paris_mimi2.JPG" alt="Mimi in Paris">
+		</a>
+		<a href="family_photo/paris_mimi.JPG" target="_blank">	
+			<img src="family_photo/paris_mimi.JPG" alt="Mimi in Paris">
+		</a>
+		<a href="family_photo/paris_mimi1.JPG" target="_blank">	
+			<img src="family_photo/paris_mimi1.JPG" alt="Mimi in Paris1">
+		</a>
+		<a href="family_photo/paris_bigaunt2.JPG" target="_blank">	
+			<img src="family_photo/paris_bigaunt2.JPG" alt="Big Aunt in Paris">
+		</a>
+		<a href="family_photo/paris_bigaunt.JPG" target="_blank">	
+			<img src="family_photo/paris_bigaunt.JPG" alt="faimily in paris">
+		</a>
+		<a href="family_photo/paris_bru2.JPG" target="_blank">	
+			<img src="family_photo/eu_bru2.JPG" alt="Brussels Trip2">
+		</a>
+		<a href="family_photo/paris_bru3.JPG" target="_blank">	
+			<img src="family_photo/eu_bru3.JPG" alt="Brussels Trip3">
+		</a>
+		<a href="family_photo/paris_bru6.JPG" target="_blank">	
+			<img src="family_photo/eu_bru6.JPG" alt="Brussels Trip6">
+		</a>
+		<a href="family_photo/paris_bru7.JPG" target="_blank">	
+		<img src="family_photo/eu_bru7.JPG" alt="Brussels Trip7">
+		</a>
+		<a href="family_photo/paris_bru8.JPG" target="_blank">	
+			<img src="family_photo/eu_bru8.JPG" alt="Brussels Trip8">
+		</a>
+		<a href="family_photo/paris_rennes.JPG" target="_blank">	
+			<img src="family_photo/eu_rennes.JPG" alt="We are in Rennes">
+		</a>
+		<a href="family_photo/paris_rennes1.JPG" target="_blank">
+			<img src="family_photo/eu_rennes1.JPG" alt="We are in Rennes1">
+		</a>
+		<a href="family_photo/eu_train.JPG" target="_blank">
+			<img src="family_photo/eu_train.JPG" alt="Mom in Train">
+		</a>
+		<a href="family_photo/beijing2.JPG" target="_blank">
+			<img src="family_photo/beijing2.JPG" alt="Beijing2">
+		</a>
+		<a href="family_photo/beijing3.JPG" target="_blank">
+			<img src="family_photo/beijing3.JPG" alt="Beijing3">
+		</a>
+		<a href="family_photo/beijing4.JPG" target="_blank">
+			<img src="family_photo/beijing4.JPG" alt="Beijing4">
+		</a>
+		<a href="family_photo/beijing5.JPG" target="_blank">
+			<img src="family_photo/beijing5.JPG" alt="Beijing5">
+		</a>
+		<a href="family_photo/beijing8.JPG" target="_blank">
+			<img src="family_photo/beijing8.JPG" alt="Beijing8">
+		</a>
+		<a href="family_photo/beijing7.JPG" target="_blank">
+			<img src="family_photo/beijing7.JPG" alt="Grandparents in Beijing">
+		</a>
+		<a href="family_photo/grandparents2.JPG" target="_blank">
+			<img src="family_photo/grandparents2.JPG" alt="Grandparents2">
+		</a>
+		<a href="family_photo/grandparents3.JPG" target="_blank">
+			<img src="family_photo/grandparents3.JPG" alt="Grandparents3">
+		</a>
+		<a href="family_photo/grandparents5.JPG" target="_blank">
+			<img src="family_photo/grandparents.JPG" alt="Grandparents">
+		</a>
+		<a href="family_photo/2018_Paris_parents.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents.jpeg" alt="2018 Parents in Paris">
+		</a>
+		<a href="family_photo/2018_Paris_parents1.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents1.jpeg" alt="2018 Parents in Paris1">
+		</a>
+		<a href="family_photo/2018_Paris_parents2.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents2.jpeg" alt="2018 Parents in Paris2">
+		</a>
+		<a href="family_photo/2018_Paris_parents3.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents3.jpeg" alt="2018 Parents in Paris3">
+		</a>
+		<a href="family_photo/2018_Paris_parents4.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents4.jpeg" alt="2018 Parents in Paris4">
+		</a>
+		<a href="family_photo/2018_Paris_parents5.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents5.jpeg" alt="2018 Parents in Paris5">
+		</a>
+		<a href="family_photo/2018_Paris_parents6.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents6.jpeg" alt="2018 Parents in Paris6">
+		</a>
+		<a href="family_photo/weihai_sister.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister.jpeg" alt="Sisters in Weihai">
+		</a>
+		<a href="family_photo/weihai_sister1.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister1.jpeg" alt="Sisters in Weihai1">
+		</a>
+		<a href="family_photo/weihai_sister2.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister2.jpeg" alt="Sisters in Weihai2">
+		</a>
+		<a href="family_photo/weihai_sister3.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister3.jpeg" alt="Sisters in Weihai3">
+		</a>
+		<a href="family_photo/taizhou.jpeg" target="_blank">
+			<img src="family_photo/taizhou.jpeg" alt="Parents in Taizhou">
+		</a>
+		<a href="family_photo/taizhou1.jpeg" target="_blank">
+			<img src="family_photo/taizhou1.jpeg" alt="Parents in Taizhou1">
+		</a>
+		<a href="family_photo/taizhou2.jpeg" target="_blank">
+			<img src="family_photo/taizhou2.jpeg" alt="Parents in Taizhou2">
+		</a>
+		<a href="family_photo/taizhou3.jpeg" target="_blank">
+			<img src="family_photo/taizhou3.jpeg" alt="Parents in Taizhou3">
+		</a>
+		<a href="family_photo/taizhou4.jpeg" target="_blank">
+			<img src="family_photo/taizhou4.jpeg" alt="Parents in Taizhou4">
+		</a>
+	</div>
+	<div  id="weihaiAll" class="tabcontent">
+		<a href="family_photo/weihai1.jpeg" target="_blank">
+			<img src="family_photo/weihai1.jpeg" alt="Weihai 1">
+		</a>
+		<a href="family_photo/weihai4.jpeg" target="_blank">
+			<img src="family_photo/weihai4.jpeg" alt="Weihai 4">
+		</a>
+		<a href="family_photo/weihai2.jpeg" target="_blank">
+		    	<img src="family_photo/weihai2.jpeg" alt="Weihai 2">
+		</a>
+		<a href="family_photo/weihai6.jpeg" target="_blank">
+			<img src="family_photo/weihai6.jpeg" alt="Weihai 6">
+		</a>
+		<a href="family_photo/weihai5.jpeg" target="_blank">
+			<img src="family_photo/weihai5.jpeg" alt="Weihai 5">
+		</a>
+		<a href="family_photo/weihai_sister.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister.jpeg" alt="Sisters in Weihai">
+		</a>
+		<a href="family_photo/weihai_sister1.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister1.jpeg" alt="Sisters in Weihai1">
+		</a>
+		<a href="family_photo/weihai_sister2.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister2.jpeg" alt="Sisters in Weihai2">
+		</a>
+		<a href="family_photo/weihai_sister3.jpeg" target="_blank">
+			<img src="family_photo/weihai_sister3.jpeg" alt="Sisters in Weihai3">
+		</a>
+	</div>
+	<div  id="Taizhou" class="tabcontent">
+		<a href="family_photo/taizhou.jpeg" target="_blank">
+			<img src="family_photo/taizhou.jpeg" alt="Parents in Taizhou">
+		</a>
+		<a href="family_photo/taizhou1.jpeg" target="_blank">
+			<img src="family_photo/taizhou1.jpeg" alt="Parents in Taizhou1">
+		</a>
+		<a href="family_photo/taizhou2.jpeg" target="_blank">
+			<img src="family_photo/taizhou2.jpeg" alt="Parents in Taizhou2">
+		</a>
+		<a href="family_photo/taizhou3.jpeg" target="_blank">
+			<img src="family_photo/taizhou3.jpeg" alt="Parents in Taizhou3">
+		</a>
+		<a href="family_photo/taizhou4.jpeg" target="_blank">
+			<img src="family_photo/taizhou4.jpeg" alt="Parents in Taizhou4">
+		</a>
+	</div>
+	<div  id="2017Europe" class="tabcontent">
+		<a href="family_photo/eu_saintmichel.JPG" target="_blank">
+			<img src="family_photo/eu_saintmichel.JPG" alt="Parents in Saint Michel">
+		</a>
+		<a href="family_photo/paris_rennes.JPG" target="_blank">	
+			<img src="family_photo/eu_rennes.JPG" alt="We are in Rennes">
+		</a>
+		<a href="family_photo/paris_rennes1.JPG" target="_blank">
+			<img src="family_photo/eu_rennes1.JPG" alt="We are in Rennes1">
+		</a>
+		<a href="family_photo/eu_train.JPG" target="_blank">
+			<img src="family_photo/eu_train.JPG" alt="Mom in Train">
+		</a>
+	</div>
+	<div  id="2018Europe" class="tabcontent">
+		<a href="family_photo/eu_bru.JPG" target="_blank">
+			<img src="family_photo/eu_bru.JPG" alt="Brussels Trip">
+		</a>
+		<a href="family_photo/eu_bru4.JPG" target="_blank">
+			<img src="family_photo/eu_bru4.JPG" alt="Brussels Trip4">
+		</a>
+		<a href="family_photo/eu_bru5.JPG" target="_blank">
+			<img src="family_photo/eu_bru5.JPG" alt="Brussels Trip5">
+		</a>
+		<a href="family_photo/eu_bru9.JPG" target="_blank">
+			<img src="family_photo/eu_bru9.JPG" alt="Brussels Trip9">
+		</a>
+		<a href="family_photo/eu_gr1.JPG" target="_blank">
+			<img src="family_photo/eu_gr1.JPG" alt="Germany Trip1">
+		</a>
+		<a href="family_photo/eu_gr3.JPG" target="_blank">
+			<img src="family_photo/eu_gr3.JPG" alt="Germany Trip3">
+		</a>
+		<a href="family_photo/eu_gr4.JPG" target="_blank">
+			<img src="family_photo/eu_gr4.JPG" alt="Germany Trip4">
+		</a>
+		<a href="family_photo/eu_gr9.JPG" target="_blank">
+			<img src="family_photo/eu_gr9.JPG" alt="Germany Trip9">
+		</a>
+		<a href="family_photo/eu_gr0.JPG" target="_blank">
+			<img src="family_photo/eu_gr0.JPG" alt="Germany Trip0">
+		</a>
+		<a href="family_photo/eu_gr11.JPG" target="_blank">
+			<img src="family_photo/eu_gr11.JPG" alt="Germany Trip11">
+ 	    </a>
+		<a href="family_photo/eu_gr.JPG" target="_blank">
+			<img src="family_photo/eu_gr.JPG" alt="Germany Trip"> 
+		</a>
+		<a href="family_photo/eu_gr2.JPG" target="_blank">
+			<img src="family_photo/eu_gr2.JPG" alt="Germany Trip2">	
+		</a>
+		<a href="family_photo/eu_gr7.JPG" target="_blank">	
+			<img src="family_photo/eu_gr7.JPG" alt="Germany Trip7">
+		</a>
+		<a href="family_photo/paris_bru2.JPG" target="_blank">	
+			<img src="family_photo/eu_bru2.JPG" alt="Brussels Trip2">
+		</a>
+		<a href="family_photo/paris_bru3.JPG" target="_blank">	
+			<img src="family_photo/eu_bru3.JPG" alt="Brussels Trip3">
+		</a>
+		<a href="family_photo/paris_bru6.JPG" target="_blank">	
+			<img src="family_photo/eu_bru6.JPG" alt="Brussels Trip6">
+		</a>
+		<a href="family_photo/paris_bru7.JPG" target="_blank">	
+			<img src="family_photo/eu_bru7.JPG" alt="Brussels Trip7">
+		</a>
+		<a href="family_photo/paris_bru8.JPG" target="_blank">	
+			<img src="family_photo/eu_bru8.JPG" alt="Brussels Trip8">
+		</a>
+		<a href="family_photo/2018_Paris_parents.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents.jpeg" alt="2018 Parents in Paris">
+		</a>
+		<a href="family_photo/2018_Paris_parents1.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents1.jpeg" alt="2018 Parents in Paris1">
+		</a>
+		<a href="family_photo/eu_bru1.jpeg" target="_blank">
+			<img src="family_photo/eu_bru1.jpeg" alt="Brussels Trip1">
+		</a>
+		<a href="family_photo/eu_bru10.jpeg" target="_blank">
+			<img src="family_photo/eu_bru10.jpeg" alt="Brussels Trip10">
+		</a>
+		<a href="family_photo/2018_Paris_parents2.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents2.jpeg" alt="2018 Parents in Paris2">
+		</a>
+		<a href="family_photo/2018_Paris_parents3.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents3.jpeg" alt="2018 Parents in Paris3">
+		</a>
+		<a href="family_photo/2018_Paris_parents4.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents4.jpeg" alt="2018 Parents in Paris4">
+		</a>
+		<a href="family_photo/2018_Paris_parents5.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents5.jpeg" alt="2018 Parents in Paris5">
+		</a>
+		<a href="family_photo/2018_Paris_parents6.jpeg" target="_blank">
+			<img src="family_photo/2018_Paris_parents6.jpeg" alt="2018 Parents in Paris6">
+		</a>
+	</div>
+	<script type="text/javascript">
+		function openAlbum(evt, themeName) {
+			var i, tabcontent, tablinks;
+
+			tabcontent = document.getElementsByClassName("tabcontent"); /* categorize all the elements with thes classname into this variable */
+
+			for(i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none"; /* hide all the element which have the class "tabcontent" */
+			}
+
+			tablinks = document.getElementsByClassName("tablinks");
+			for(i = 0; i < tablinks.length; i++){
+				tablinks[i].className = tablinks[i].className.replace(" active", ""); /* remove the .active class from all the elements having class "tablinks" */
+			}
+
+			document.getElementById(themeName).style.display = "block";
+			evt.currentTarget.className += " active"; //currentTarget >> one of Event Object's properties and methods. Returns the element whose event listeners triggered the event.
+		}
+		document.getElementById("defaultOpen").click();
+	</script>
+</body>
+</html>
